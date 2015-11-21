@@ -12,9 +12,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     @IBOutlet weak var tableView: UITableView!
     
+    var movieTitles: [String]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        movieTitles = ["The Hobbit", "Catching Fire"]
         
         tableView.delegate = self
         tableView.dataSource = self
@@ -31,7 +35,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("MovieCell")!
+        let cell = tableView.dequeueReusableCellWithIdentifier("MovieCell") as! MovieCell
+        
+        cell.titleLabel.text = "hey now"
+        cell.synopsisLabel.text = "the synopsis label"
+        
+        print(indexPath.row)
         
         return cell
     
