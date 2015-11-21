@@ -31,7 +31,7 @@
                                                     <color key="backgroundColor" red="0.50588238240000005" green="0.72156864399999998" blue="0.67058825489999996" alpha="1" colorSpace="calibratedRGB"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Martian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iyq-2q-azo">
-                                                    <rect key="frame" x="107" y="8" width="92" height="21"/>
+                                                    <rect key="frame" x="107" y="8" width="205" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
